@@ -1,0 +1,49 @@
+body {
+    overflwo-x: hieen;
+}
+
+.black-nav {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+}
+
+.list {
+    text-align: left;
+    padding-left: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.title:hover {
+    color: #0064ff;
+}
+
+.detail-container {
+    padding-left: 20px;
+}
+
+.back {
+    display: inline-block;
+    bakcground-color: #ffffff;
+    color: #333333;
+    height: 3.5em;
+    width: 10em;
+    margin-top: 3em;
+    border-radius: 30px;
+    border: 2px solid #333333;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.back:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
